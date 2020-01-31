@@ -8,11 +8,11 @@ from tkinter.font import Font
 # Get fact from r/TodayILearned Scraper Reddit API
 # This API is soooo slow but it is the only one available...
 def getFact():
-    reddit = praw.Reddit(client_id='zid0IOqQ_OhU6A', \
-                     client_secret='vVuqwoU_NuDSrolGQ55F8YiYX8E', \
-                     user_agent='TILscraper', \
-                     username='monsterback23', \
-                     password='CFKLWcw7$')
+    reddit = praw.Reddit(client_id='', \
+                     client_secret='', \
+                     user_agent='', \
+                     username='', \
+                     password='')
 
     # choosing a random submission from r/todayilearned
     subreddit = reddit.subreddit('todayilearned')
